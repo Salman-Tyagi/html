@@ -1,17 +1,22 @@
 @font-face {
-    /* font-family: pokemon;
-    src: url("Pokemon\ Hollow.ttf"); */
     font-family: pokemon;
-    src: url("Pokemon\ Solid.ttf");
+    src: url("Pokemon\ Hollow.ttf");
 
 }
 
 body {
-    font-family: 'Orbitron', sans-serif;;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
     color: white;
-    background-image: url("images/giphy.webp");
-    background-size: cover;
+    background-size:cover;
     text-align: center;
+    color: #8ecae6;
+}
+
+div {
+    background-image: url("https://64.media.tumblr.com/adc179969db2fc3ecc3d7ce31cb72f98/b75ceff19039a954-df/s500x750/a98958a851c94a08f71159ea8cdceeebcf4cb118.gif");
+    background-size: cover;
+    padding: 20px 0;
 }
 
 #spacex-logo {
@@ -21,19 +26,17 @@ body {
 }
 
 .btn {
-    /* font-family: 'Orbitron', sans-serif; */
     padding: 8px 12px;
     background-color: white;
     border: none;
-    font-family: pokemon;
-    color: red;
+    font-family: inherit;
+    color: #219ebc;
 }
 
 .underline {
-    /* background-color: slateblue; */
-    /* border: 5px solid white; */
-    /* padding: 0 5px; */
-    /* text-decoration: underline; */
     border-bottom: 4px solid white;
-    color: red;
+}
+
+h1 {
+    text-shadow: 0 0 3px white;
 }
