@@ -1,0 +1,25 @@
+@font-face {
+    font-family: happy-monkey;
+    src: url("fonts/HappyMonkey-Regular.ttf");
+}
+
+body {
+    background-color: #a2d2ff;
+    font-family: happy-monkey;
+    text-align: center;
+    color: white;
+}
+
+#photo-img {
+    border: 5px solid pink;
+    height: 140px;
+    border-radius: 50%;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+h2, h4 {
+    background-color: pink;
+}
