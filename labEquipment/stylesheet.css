@@ -1,8 +1,9 @@
 .container {
   border: 8px solid forestgreen;
-  height: 460px;
+  height: 560px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
