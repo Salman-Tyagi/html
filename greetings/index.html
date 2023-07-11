@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="stylesheet.css">
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
 
     <title>Greetings</title>
-</head>
-<body>
-    <div class="main">
-        <h1>Today is Nick's Birthday 🎉</h1>
-        <img id="photo-img" src="images/photo2.png" alt="Salman looking at the camera">
-        <h2>25 years old</h2>
-        <h4>01.01.2023</h4>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Today is Nick's Birthday 🎉</h1>
+      <img
+        id="photo-img"
+        src="images/photo2.png"
+        alt="Salman looking at the camera"
+      />
+      <h2 id="bday-age">25 years old</h2>
+      <h4 id="bday-date">01.01.2023</h4>
+
+      <div class="gift-section">
+        <h1 id="gift-title">Here's how happy I am today 🤩</h1>
+        <h2 id="gift-hint">(Hover over the gift)</h2>
+        <div class="gift-cover" id="hover-happy"></div>
+
+        <div class="gift-section">
+          <h1>How people react when you enter the room 🕺</h1>
+          <div class="gift-cover" id="hover-whoo"></div>
+        </div>
+
+        <div class="gift-section">
+          <h1>If I had to decribe you in ONE word ✨</h1>
+          <div class="gift-cover" id="hover-genius"></div>
+        </div>
+
+        <div class="gift-section">
+          <h1>The only person good as you 👦</h1>
+          <div class="gift-cover" id="hover-good"></div>
+        </div>
+
+        <div class="gift-section">
+          <h1>This is only for you, my friend 👇</h1>
+          <div class="gift-cover" id="hover-drink"></div>
+        </div>
+      </div>
     </div>
-</body>
+    <div class="footer">
+      <h2 class="footer-description">Want to create your own Birthday GIFT?</h2>
+      <h3 id="url-link">
+        <a href="http://127.0.0.1:8080/greetings/index.html" target="_blank"
+          >Take this HTML and CSS course</a
+        >
+      </h3>
+    </div>
+  </body>
 </html>

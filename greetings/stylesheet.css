@@ -1,25 +1,92 @@
 @font-face {
-    font-family: happy-monkey;
-    src: url("fonts/HappyMonkey-Regular.ttf");
+  font-family: happy-monkey;
+  src: url("fonts/HappyMonkey-Regular.ttf");
 }
 
 body {
-    background-color: #a2d2ff;
-    font-family: happy-monkey;
-    text-align: center;
-    color: white;
+  background-color: #a2d2ff;
+  font-family: happy-monkey;
+  text-align: center;
+  color: white;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #photo-img {
-    border: 5px solid pink;
-    height: 140px;
-    border-radius: 50%;
+  border: 5px solid pink;
+  height: 140px;
+  border-radius: 50%;
 }
 
-h1, h2, h3, h4, p {
-    text-shadow: 0 0 2px black;
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
 }
 
-h2, h4 {
-    background-color: pink;
+#bday-age {
+  background-color: pink;
+  padding: 10px 10px 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#bday-date {
+  margin: 0;
+  background-color: pink;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.gift-cover {
+  width: 500px;
+  height: 500px;
+  border: 5px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-wrapper.png");
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+#gift-hint {
+  margin: 10px 0;
+}
+
+#hover-happy:hover {
+  background-image: url("images/bday-503.gif");
+}
+
+#hover-whoo:hover {
+  background-image: url("images/enterRoom.gif");
+}
+
+#hover-genius:hover {
+  background-image: url("https://s.yimg.com/ny/api/res/1.2/YrTWB9STLHg0L_mA3qxdRg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/en-AU/homerun/y7.beau/bc1e7a06d1a0afa8038ff11561fcb0c1");
+}
+
+#hover-good:hover {
+  background-image: url("https://media.tenor.com/IOEsG9ldvhAAAAAd/mr-bean.gif");
+}
+
+#hover-drink {
+  height: 200px;
+}
+
+#hover-drink:hover {
+  background-image: url("images/drink.gif");
+}
+
+.footer-description {
+  margin-bottom: 5px;
+}
+
+#url-link {
+  margin-top: 5px;
 }

@@ -1,0 +1,18 @@
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: rgb(207, 50, 50);
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 6px 0;
+  padding: 20px 0;
+}
+
+div:hover {
+  background-color: rgb(241, 19, 19);
+  font-size: 55px;
+  background-image: url("https://i.pinimg.com/originals/10/2c/68/102c68be7b0d4ecc2d3d09cb10bf7167.jpg");
+  background-size: cover;
+  text-shadow: 0 0 5px black;
+}
